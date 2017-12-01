@@ -1,9 +1,9 @@
 # TP2 Javascript
--149999, 150251, 145809, 150916
+- 149999, 150251, 145809, 150916
 
 ---
 
-##Arquitectura
+## Arquitectura
 - 2 - Capas y operaciones
 - No tiene persistencia
 - Stateful
@@ -13,11 +13,12 @@
 
 ---
 
-##UML
+## UML:
+
 ![UML](https://raw.githubusercontent.com/monicavelaje/agenda/master/UML.PNG)
 
 ---
-##Clase Estudiante
+## Clase ESTUDIANTE
 
 ```javascript
 var actual;
@@ -45,4 +46,44 @@ var ESTUDIANTE = (function (n,c,co,p){
         };
     }
 );
+```
+---
+## Clase HORARIO
+```javascript
+var HORARIO= (function(){
+    var pertenece=null;
+    var tiene=[];
+    return {
+        getPertenece: function(){return pertenece;},
+        setPertenece: function(estudiante){pertenece=estudiante;},
+        getTiene: function(){return tiene;},
+        setTiene: function(act){tiene.push(act);}
+    };
+})();
+```
+---
+## Clase ACTIVIDAD
+```javascript
+var ACTIVIDAD=(function(t,d,hi,hf,l,ev){
+    var titulo=t;
+    var descripcion=d;
+    var horaInicial=hi;
+    var horaFinal=hf;
+    var lugar=l;
+    var evaluacion=ev;
+    return{
+        getLugar:function(){return lugar;},
+        setLugar:function(lu){lugar=lu;},
+        getEv:function(){return evaluacion;},
+        setEv:function(e){return evaluacion=e;},
+        getTitulo: function(){return titulo;},
+        setTitulo: function(titl){titulo =titl;},
+        getDescripcion: function(){return descripcion;},
+        setDescripcion: function(ds){descripcion=ds;},
+        getHoraInicial:function(){return horaInicial;},
+        setHoraInicial:function(hrI){horaInicial=hrI},
+        getHoraFinal:function(){return horaFinal;},
+        setHoraFinal:function(hrF){horaFinal=hrF;},
+    }
+});
 ```
