@@ -3,7 +3,12 @@
 149999, 150251, 145809, 150916
 
 ---
-
+## Tecnologías utilizadas
+- HTML
+- CSS
+- JavaScript
+- Cloud9
+---
 ## Arquitectura
 - 2 - Capas y operaciones
 - No tiene persistencia
