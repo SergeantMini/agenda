@@ -49,6 +49,8 @@ var ESTUDIANTE = (function (n,c,co,p){
     }
 );
 ```
+@[1]
+@[2-5]
 ---
 ## Clase HORARIO
 ```javascript
