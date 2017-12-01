@@ -10,7 +10,7 @@
 - Orientado a conexión
 - Síncrono
 
-- ![ARQUITECTURA](https://raw.githubusercontent.com/monicavelaje/agenda/master/ARQUITECTURA.PNG)
+![ARQUITECTURA](https://raw.githubusercontent.com/monicavelaje/agenda/master/ARQUITECTURA.PNG)
 
 ---
 
