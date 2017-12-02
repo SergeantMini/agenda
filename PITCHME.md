@@ -5,8 +5,8 @@
 ---
 ## Objetivos
 
-Proponer una arquitectura para el diseño de nuestra agenda.
-Crear una agenda web funcional que nos permita administrar las actividades semanales/mensuales de una persona.
+- Proponer una arquitectura para el diseño de nuestra agenda.
+- Crear una agenda web funcional que nos permita administrar las actividades semanales/mensuales de una persona.
 
 ---
 ## Tecnologías utilizadas
