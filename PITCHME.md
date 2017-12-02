@@ -102,5 +102,5 @@ var ACTIVIDAD=(function(t,d,hi,hf,l,ev){
 ```
 ---
 ## Conclusiones
-Utilizamos archivos javascript para la funcionalidad de la página. Este tipo de archivos facilita la administración y el mantenimiento de una página web con servicios. 
+Utilizamos archivos javascript para la funcionalidad de la página.
 Anteriormente habíamos creado nuestra página y comprobamos que funcionaba, pero al agregarle el archivo javaScript pudimos obtener datos, almacenarlos y recuperarlos, dándole a la página una funcionalidad mayor a la que anteriormente tenía.
