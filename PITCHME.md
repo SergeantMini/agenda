@@ -3,6 +3,12 @@
 149999, 150251, 145809, 150916
 
 ---
+## Objetivos
+
+Proponer una arquitectura para el diseño de nuestra agenda.
+Crear una agenda web funcional que nos permita administrar las actividades semanales/mensuales de una persona.
+
+---
 ## Tecnologías utilizadas
 - HTML
 - CSS
